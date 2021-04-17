@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surbey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        <h1 id="title">This is a surbey Form about the best Social Network</h1>
+        <p id="description">The principal idea of this surbey form its recopile data about the perception of the people regarding the best Social Network </p>
+    <main>
+     <form id="survey-form">
+     <div class="group-form">
+        <label id="name-label"for="Name"> Name</label>
+        <input type="text" id="name" placeholder="Enter your name" class="form"  required>
+     </div>
+     <div class="group-form">
+        <label id="email-label"for="Email"> Email</label>
+        <input type="Email" id="email" placeholder="Enter your Email" class="form" required >
+     </div class="group-form">
+    <div class="group-form">
+     <label id="number-label"for="Number"> Age</label>
+        <input type="number" id="number" placeholder="Enter your Age" class="form" min="3" max="99" >
+     </div>
+     <div  class="group-form">
+         <p>Select the best Social Network</p>
+         <select name="dropdown" id="dropdown"  class="form"required>
+             <option value="">Select a option</option>
+             <option value="Facebook">Facebok</option>
+             <option value="Twitter">Twitter</option>
+             <option value="Instagram">Instagram</option>
+             <option value="TikTok">TikTok</option>
+
+         </select>
+     </div>
+     <div class="group-form">
+         <p>Select the worst Social Network</p>
+         <p>
+         <input name="Worst-Social-Network" type="radio" class="input-radio" value="Facebook"> Facebook
+         <input name="Worst-Social-Network" type="radio" class="input-radio" value="Twitter"> Twitter
+         <input name="Worst-Social-Network" type="radio" class="input-radio" value="Instagram"> Instagram
+         <input name="Worst-Social-Network" type="radio" class="input-radio" value="TikTok"> TikTok
+         
+
+         </p>
+     </div>
+     <div class="group-form">
+         <p>Which is the much easier to use? </p>
+         <input type="checkbox" value="Facebook" class="chexbox"> Facebook <br>
+         <input type="checkbox" value="Twitter" class="chexbox"> Twitter    <br>
+         <input type="checkbox" value="Instagram"   class="chexbox"> Instagram    <br>
+         <input type="checkbox" value="TikTok"  class="chexbox"> TikTok
+     </div>
+     <div class="group-form">
+         <p>Any other comentary about the best or worst social network?</p>
+         <textarea name="comments" id="comments" cols="30" rows="10" class="form"></textarea>
+     </div>
+
+     <div class="group-form">
+        <button type="submit" class="submit-button" id="submit">Submit</button>
+     </div>
+        </form>
+    </main>
+    
+</body>
+</htmla

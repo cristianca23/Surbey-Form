@@ -1,0 +1,54 @@
+body{
+    margin: 10px auto;
+    border-radius: 10px;
+    background-image: url("background.jpg");
+     
+} 
+#title{
+    color: white; 
+    margin: center;
+    text-align: center;
+    font-style:italic;
+}
+#description{
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+form{
+    padding: 12px;
+    margin: 2.5em 0.625em;
+    border-radius: 20px;
+}
+#survey-form{
+    padding: 10px;
+    color: lawngreen;
+}
+.group-form{
+    padding: 0.25em;
+    text-align: center;
+    color: white;
+    margin: 0 auto 1.25em auto;
+    font-size: 20px;
+}
+div{
+    display: block;
+}
+.form{
+    width: 50%;
+    height: 25px;
+    color: teal;
+    background-clip:inherit;
+    text-align: center;
+    padding: auto auto;
+    border-radius: 25px;
+    
+}
+.submit-button{
+    color: black;
+    padding: 10px;
+    background: rgb(1, 107, 84);
+    border-radius: 10px;
+    width: 15%;
+}
